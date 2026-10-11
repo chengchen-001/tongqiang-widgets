@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "note": "痛墙组件库清单。base 为素材根目录，items[].bg / items[].sticker 相对 base 解析。",
+  "base": "assets/",
+  "items": [
+    {
+      "id": "demo-plain",
+      "name": "素色铭牌",
+      "desc": "纯底色 + 一行字，最省事的起点",
+      "size": "2x1",
+      "bgColor": "#FF26262B",
+      "text": "痛墙",
+      "textScale": 0.16,
+      "textColor": "#FFFFFFFF",
+      "textPos": "bc"
+    },
+    {
+      "id": "demo-star",
+      "name": "星章",
+      "desc": "渐变底 + 星星贴纸 + 文字，演示完整三层",
+      "size": "2x1",
+      "bg": "bg_demo.png",
+      "sticker": "sticker_demo.png",
+      "stickerScale": 0.5,
+      "stickerPos": "c",
+      "text": "每天都要开心",
+      "textScale": 0.12,
+      "textColor": "#FFFFFFFF",
+      "textPos": "bc"
+    }
+  ]
+}
